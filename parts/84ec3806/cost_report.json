@@ -1,0 +1,72 @@
+{
+ "total": 113.534,
+ "material_cost": 9.602,
+ "machine_cost": 103.932,
+ "time_min": {
+  "rough": 32.3,
+  "finish": 17.69,
+  "holes": 1.93,
+  "penalties": 12.0,
+  "setups": 40.0
+ },
+ "stock_cm3": 592.7,
+ "volume_cm3": 334.26,
+ "bbox_mm": [
+  80.0,
+  80.0,
+  80.0
+ ],
+ "features": {
+  "n_faces": 25,
+  "holes": [
+   {
+    "d_mm": 20.0,
+    "depth_mm": 80.0,
+    "standard": true,
+    "deep": false
+   },
+   {
+    "d_mm": 15.0,
+    "depth_mm": 33.39,
+    "standard": true,
+    "deep": false
+   },
+   {
+    "d_mm": 64.0,
+    "depth_mm": 20.0,
+    "standard": true,
+    "deep": false
+   }
+  ],
+  "nonstandard_holes": 0,
+  "deep_holes": 0,
+  "sharp_internal_corners": 8,
+  "small_internal_radius": 0,
+  "ball_nose_faces": 0,
+  "chamfer_faces": 0,
+  "min_wall_mm": 2.982,
+  "thin_wall": 0,
+  "setups": 2,
+  "setup_dirs": [
+   [
+    0,
+    0,
+    1
+   ],
+   [
+    1,
+    0,
+    0
+   ]
+  ],
+  "inaccessible_faces": 0
+ },
+ "issues": [
+  {
+   "id": "sharp_internal_corner",
+   "count": 8,
+   "est_saving_min": 12.0,
+   "text": "Sharp internal vertical corners (no corner radius): a round end mill cannot cut them. Add fillets of radius >= 1.5 mm."
+  }
+ ]
+}

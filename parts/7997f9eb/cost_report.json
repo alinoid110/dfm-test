@@ -1,0 +1,53 @@
+{
+ "total": 62.529,
+ "material_cost": 3.583,
+ "machine_cost": 58.946,
+ "time_min": {
+  "rough": 11.39,
+  "finish": 6.87,
+  "holes": 0.69,
+  "penalties": 0.0,
+  "setups": 40.0
+ },
+ "stock_cm3": 221.18,
+ "volume_cm3": 130.07,
+ "bbox_mm": [
+  60.0,
+  60.0,
+  50.0
+ ],
+ "features": {
+  "n_faces": 9,
+  "holes": [
+   {
+    "d_mm": 15.0,
+    "depth_mm": 49.0,
+    "standard": true,
+    "deep": false
+   }
+  ],
+  "nonstandard_holes": 0,
+  "deep_holes": 0,
+  "sharp_internal_corners": 0,
+  "small_internal_radius": 0,
+  "ball_nose_faces": 0,
+  "chamfer_faces": 0,
+  "min_wall_mm": 1.054,
+  "thin_wall": 0,
+  "setups": 2,
+  "setup_dirs": [
+   [
+    0,
+    1,
+    0
+   ],
+   [
+    0,
+    0,
+    1
+   ]
+  ],
+  "inaccessible_faces": 0
+ },
+ "issues": []
+}

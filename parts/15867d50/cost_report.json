@@ -1,0 +1,83 @@
+{
+ "total": 231.92,
+ "material_cost": 4.205,
+ "machine_cost": 227.715,
+ "time_min": {
+  "rough": 25.35,
+  "finish": 11.76,
+  "holes": 2.0,
+  "penalties": 128.6,
+  "setups": 60.0
+ },
+ "stock_cm3": 259.58,
+ "volume_cm3": 56.77,
+ "bbox_mm": [
+  100.0,
+  60.0,
+  35.0
+ ],
+ "features": {
+  "n_faces": 37,
+  "holes": [
+   {
+    "d_mm": 6.0,
+    "depth_mm": 80.0,
+    "standard": true,
+    "deep": true
+   },
+   {
+    "d_mm": 6.0,
+    "depth_mm": 80.0,
+    "standard": true,
+    "deep": true
+   }
+  ],
+  "nonstandard_holes": 0,
+  "deep_holes": 2,
+  "sharp_internal_corners": 2,
+  "small_internal_radius": 0,
+  "ball_nose_faces": 0,
+  "chamfer_faces": 12,
+  "min_wall_mm": 4.0,
+  "thin_wall": 0,
+  "setups": 3,
+  "setup_dirs": [
+   [
+    -1,
+    0,
+    0
+   ],
+   [
+    0,
+    0,
+    -1
+   ],
+   [
+    0,
+    0,
+    1
+   ]
+  ],
+  "inaccessible_faces": 12
+ },
+ "issues": [
+  {
+   "id": "inaccessible_face",
+   "count": 12,
+   "est_saving_min": 120.0,
+   "text": "Faces not reachable by a tool from any of 6 axis directions (would need EDM/5-axis). Open up access."
+  },
+  {
+   "id": "sharp_internal_corner",
+   "count": 2,
+   "est_saving_min": 3.0,
+   "text": "Sharp internal vertical corners (no corner radius): a round end mill cannot cut them. Add fillets of radius >= 1.5 mm."
+  },
+  {
+   "id": "deep_hole",
+   "count": 2,
+   "est_saving_min": 2.0,
+   "text": "Deep holes (depth/diameter > 5.0). Reduce depth if allowed."
+  }
+ ]
+}

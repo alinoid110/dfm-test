@@ -1,0 +1,83 @@
+{
+ "total": 169.564,
+ "material_cost": 8.459,
+ "machine_cost": 161.106,
+ "time_min": {
+  "rough": 43.47,
+  "finish": 10.17,
+  "holes": 1.47,
+  "penalties": 46.0,
+  "setups": 60.0
+ },
+ "stock_cm3": 522.14,
+ "volume_cm3": 174.38,
+ "bbox_mm": [
+  80.0,
+  70.0,
+  80.0
+ ],
+ "features": {
+  "n_faces": 30,
+  "holes": [
+   {
+    "d_mm": 5.0,
+    "depth_mm": 53.33,
+    "standard": true,
+    "deep": true
+   },
+   {
+    "d_mm": 5.0,
+    "depth_mm": 53.33,
+    "standard": true,
+    "deep": true
+   }
+  ],
+  "nonstandard_holes": 0,
+  "deep_holes": 2,
+  "sharp_internal_corners": 0,
+  "small_internal_radius": 0,
+  "ball_nose_faces": 13,
+  "chamfer_faces": 0,
+  "min_wall_mm": 0.145,
+  "thin_wall": 1,
+  "setups": 3,
+  "setup_dirs": [
+   [
+    1,
+    0,
+    0
+   ],
+   [
+    0,
+    1,
+    0
+   ],
+   [
+    0,
+    -1,
+    0
+   ]
+  ],
+  "inaccessible_faces": 0
+ },
+ "issues": [
+  {
+   "id": "ball_nose_face",
+   "count": 13,
+   "est_saving_min": 39.0,
+   "text": "Convex 'horizontal' rounded/freeform faces need a ball-nose tool and 3D toolpaths. Replace horizontal convex fillets with 45-degree chamfers."
+  },
+  {
+   "id": "thin_wall",
+   "count": 1,
+   "est_saving_min": 5.0,
+   "text": "Walls thinner than 1.0 mm (vibration, scrap). Thicken them."
+  },
+  {
+   "id": "deep_hole",
+   "count": 2,
+   "est_saving_min": 2.0,
+   "text": "Deep holes (depth/diameter > 5.0). Reduce depth if allowed."
+  }
+ ]
+}

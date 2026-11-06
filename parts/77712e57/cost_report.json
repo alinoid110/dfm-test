@@ -1,0 +1,138 @@
+{
+ "total": 342.066,
+ "material_cost": 11.888,
+ "machine_cost": 330.178,
+ "time_min": {
+  "rough": 72.44,
+  "finish": 25.36,
+  "holes": 4.38,
+  "penalties": 188.0,
+  "setups": 40.0
+ },
+ "stock_cm3": 733.82,
+ "volume_cm3": 154.32,
+ "bbox_mm": [
+  80.0,
+  80.0,
+  100.0
+ ],
+ "features": {
+  "n_faces": 46,
+  "holes": [
+   {
+    "d_mm": 5.0,
+    "depth_mm": 12.0,
+    "standard": true,
+    "deep": false
+   },
+   {
+    "d_mm": 5.0,
+    "depth_mm": 5.0,
+    "standard": true,
+    "deep": false
+   },
+   {
+    "d_mm": 5.0,
+    "depth_mm": 5.0,
+    "standard": true,
+    "deep": false
+   },
+   {
+    "d_mm": 5.0,
+    "depth_mm": 12.0,
+    "standard": true,
+    "deep": false
+   },
+   {
+    "d_mm": 5.0,
+    "depth_mm": 5.0,
+    "standard": true,
+    "deep": false
+   },
+   {
+    "d_mm": 5.0,
+    "depth_mm": 5.0,
+    "standard": true,
+    "deep": false
+   },
+   {
+    "d_mm": 5.0,
+    "depth_mm": 5.0,
+    "standard": true,
+    "deep": false
+   },
+   {
+    "d_mm": 5.0,
+    "depth_mm": 12.0,
+    "standard": true,
+    "deep": false
+   },
+   {
+    "d_mm": 5.0,
+    "depth_mm": 5.0,
+    "standard": true,
+    "deep": false
+   },
+   {
+    "d_mm": 5.0,
+    "depth_mm": 5.0,
+    "standard": true,
+    "deep": false
+   },
+   {
+    "d_mm": 5.0,
+    "depth_mm": 5.0,
+    "standard": true,
+    "deep": false
+   },
+   {
+    "d_mm": 5.0,
+    "depth_mm": 12.0,
+    "standard": true,
+    "deep": false
+   },
+   {
+    "d_mm": 70.0,
+    "depth_mm": 90.0,
+    "standard": true,
+    "deep": false
+   }
+  ],
+  "nonstandard_holes": 0,
+  "deep_holes": 0,
+  "sharp_internal_corners": 0,
+  "small_internal_radius": 0,
+  "ball_nose_faces": 16,
+  "chamfer_faces": 0,
+  "min_wall_mm": 3.771,
+  "thin_wall": 0,
+  "setups": 2,
+  "setup_dirs": [
+   [
+    0,
+    -1,
+    0
+   ],
+   [
+    0,
+    0,
+    1
+   ]
+  ],
+  "inaccessible_faces": 14
+ },
+ "issues": [
+  {
+   "id": "inaccessible_face",
+   "count": 14,
+   "est_saving_min": 140.0,
+   "text": "Faces not reachable by a tool from any of 6 axis directions (would need EDM/5-axis). Open up access."
+  },
+  {
+   "id": "ball_nose_face",
+   "count": 16,
+   "est_saving_min": 48.0,
+   "text": "Convex 'horizontal' rounded/freeform faces need a ball-nose tool and 3D toolpaths. Replace horizontal convex fillets with 45-degree chamfers."
+  }
+ ]
+}

@@ -1,0 +1,5 @@
+[
+  {"tag": "qwen25coder7b", "model": "Qwen/Qwen2.5-Coder-7B-Instruct-AWQ", "vllm_args": ["--quantization", "awq"]},
+  {"tag": "llama31_8b",    "model": "hugging-quants/Meta-Llama-3.1-8B-Instruct-AWQ-INT4", "vllm_args": ["--quantization", "awq"]},
+  {"tag": "mistral7b",     "model": "TheBloke/Mistral-7B-Instruct-v0.2-AWQ", "vllm_args": ["--quantization", "awq"]}
+]

@@ -1,0 +1,9 @@
+{
+  "machine": "3-axis mill",
+  "material": "aluminum_6061",
+  "unit_to_mm": 1.0,
+  "stock_margin_mm": 2.0,
+  "tool_min_radius_mm": 1.5,
+  "min_wall_mm": 1.0,
+  "primary_axis": "Z"
+}

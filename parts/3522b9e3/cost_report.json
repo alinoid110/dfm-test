@@ -1,0 +1,61 @@
+{
+ "total": 298.41,
+ "material_cost": 8.459,
+ "machine_cost": 289.951,
+ "time_min": {
+  "rough": 52.21,
+  "finish": 21.92,
+  "holes": 0.82,
+  "penalties": 195.0,
+  "setups": 20.0
+ },
+ "stock_cm3": 522.14,
+ "volume_cm3": 104.43,
+ "bbox_mm": [
+  80.0,
+  80.0,
+  70.0
+ ],
+ "features": {
+  "n_faces": 23,
+  "holes": [
+   {
+    "d_mm": 72.0,
+    "depth_mm": 62.0,
+    "standard": true,
+    "deep": false
+   }
+  ],
+  "nonstandard_holes": 0,
+  "deep_holes": 0,
+  "sharp_internal_corners": 0,
+  "small_internal_radius": 0,
+  "ball_nose_faces": 0,
+  "chamfer_faces": 0,
+  "min_wall_mm": 0.013,
+  "thin_wall": 1,
+  "setups": 1,
+  "setup_dirs": [
+   [
+    1,
+    0,
+    0
+   ]
+  ],
+  "inaccessible_faces": 19
+ },
+ "issues": [
+  {
+   "id": "inaccessible_face",
+   "count": 19,
+   "est_saving_min": 190.0,
+   "text": "Faces not reachable by a tool from any of 6 axis directions (would need EDM/5-axis). Open up access."
+  },
+  {
+   "id": "thin_wall",
+   "count": 1,
+   "est_saving_min": 5.0,
+   "text": "Walls thinner than 1.0 mm (vibration, scrap). Thicken them."
+  }
+ ]
+}

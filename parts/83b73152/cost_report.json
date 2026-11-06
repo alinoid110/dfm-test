@@ -1,0 +1,106 @@
+{
+ "total": 279.698,
+ "material_cost": 9.83,
+ "machine_cost": 269.868,
+ "time_min": {
+  "rough": 66.26,
+  "finish": 14.74,
+  "holes": 4.87,
+  "penalties": 104.0,
+  "setups": 80.0
+ },
+ "stock_cm3": 606.82,
+ "volume_cm3": 76.75,
+ "bbox_mm": [
+  80.0,
+  80.0,
+  82.0
+ ],
+ "features": {
+  "n_faces": 46,
+  "holes": [
+   {
+    "d_mm": 6.0,
+    "depth_mm": 82.0,
+    "standard": true,
+    "deep": true
+   },
+   {
+    "d_mm": 6.0,
+    "depth_mm": 82.0,
+    "standard": true,
+    "deep": true
+   },
+   {
+    "d_mm": 6.0,
+    "depth_mm": 82.0,
+    "standard": true,
+    "deep": true
+   },
+   {
+    "d_mm": 6.0,
+    "depth_mm": 82.0,
+    "standard": true,
+    "deep": true
+   },
+   {
+    "d_mm": 32.0,
+    "depth_mm": 24.33,
+    "standard": true,
+    "deep": false
+   },
+   {
+    "d_mm": 28.0,
+    "depth_mm": 15.0,
+    "standard": true,
+    "deep": false
+   }
+  ],
+  "nonstandard_holes": 0,
+  "deep_holes": 4,
+  "sharp_internal_corners": 0,
+  "small_internal_radius": 0,
+  "ball_nose_faces": 0,
+  "chamfer_faces": 0,
+  "min_wall_mm": 1.646,
+  "thin_wall": 0,
+  "setups": 4,
+  "setup_dirs": [
+   [
+    1,
+    0,
+    0
+   ],
+   [
+    0,
+    0,
+    1
+   ],
+   [
+    0,
+    0,
+    -1
+   ],
+   [
+    0,
+    1,
+    0
+   ]
+  ],
+  "inaccessible_faces": 10
+ },
+ "issues": [
+  {
+   "id": "inaccessible_face",
+   "count": 10,
+   "est_saving_min": 100.0,
+   "text": "Faces not reachable by a tool from any of 6 axis directions (would need EDM/5-axis). Open up access."
+  },
+  {
+   "id": "deep_hole",
+   "count": 4,
+   "est_saving_min": 4.0,
+   "text": "Deep holes (depth/diameter > 5.0). Reduce depth if allowed."
+  }
+ ]
+}

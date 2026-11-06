@@ -1,0 +1,9 @@
+{
+  "name": "9cb72441",
+  "bbox": {"x": [0, 100], "y": [0, 100], "z": [0, 100]},
+  "holes": [],
+  "keep_solids": [],
+  "min_volume": 0,
+  "min_wall": 1.0,
+  "material": "Al6061"
+}

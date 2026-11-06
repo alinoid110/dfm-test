@@ -1,0 +1,89 @@
+{
+ "total": 293.572,
+ "material_cost": 6.619,
+ "machine_cost": 286.953,
+ "time_min": {
+  "rough": 41.38,
+  "finish": 15.49,
+  "holes": 1.08,
+  "penalties": 169.0,
+  "setups": 60.0
+ },
+ "stock_cm3": 408.58,
+ "volume_cm3": 77.54,
+ "bbox_mm": [
+  72.0,
+  80.0,
+  60.0
+ ],
+ "features": {
+  "n_faces": 41,
+  "holes": [
+   {
+    "d_mm": 52.0,
+    "depth_mm": 52.0,
+    "standard": true,
+    "deep": false
+   },
+   {
+    "d_mm": 16.0,
+    "depth_mm": 16.0,
+    "standard": true,
+    "deep": false
+   }
+  ],
+  "nonstandard_holes": 0,
+  "deep_holes": 0,
+  "sharp_internal_corners": 8,
+  "small_internal_radius": 0,
+  "ball_nose_faces": 4,
+  "chamfer_faces": 0,
+  "min_wall_mm": 0.313,
+  "thin_wall": 1,
+  "setups": 3,
+  "setup_dirs": [
+   [
+    1,
+    0,
+    0
+   ],
+   [
+    -1,
+    0,
+    0
+   ],
+   [
+    0,
+    0,
+    1
+   ]
+  ],
+  "inaccessible_faces": 14
+ },
+ "issues": [
+  {
+   "id": "inaccessible_face",
+   "count": 14,
+   "est_saving_min": 140.0,
+   "text": "Faces not reachable by a tool from any of 6 axis directions (would need EDM/5-axis). Open up access."
+  },
+  {
+   "id": "sharp_internal_corner",
+   "count": 8,
+   "est_saving_min": 12.0,
+   "text": "Sharp internal vertical corners (no corner radius): a round end mill cannot cut them. Add fillets of radius >= 1.5 mm."
+  },
+  {
+   "id": "ball_nose_face",
+   "count": 4,
+   "est_saving_min": 12.0,
+   "text": "Convex 'horizontal' rounded/freeform faces need a ball-nose tool and 3D toolpaths. Replace horizontal convex fillets with 45-degree chamfers."
+  },
+  {
+   "id": "thin_wall",
+   "count": 1,
+   "est_saving_min": 5.0,
+   "text": "Walls thinner than 1.0 mm (vibration, scrap). Thicken them."
+  }
+ ]
+}

@@ -1,0 +1,84 @@
+{
+ "total": 108.314,
+ "material_cost": 7.616,
+ "machine_cost": 100.698,
+ "time_min": {
+  "rough": 40.91,
+  "finish": 10.99,
+  "holes": 2.8,
+  "penalties": 6.0,
+  "setups": 40.0
+ },
+ "stock_cm3": 470.13,
+ "volume_cm3": 142.85,
+ "bbox_mm": [
+  70.811,
+  70.811,
+  80.0
+ ],
+ "features": {
+  "n_faces": 22,
+  "holes": [
+   {
+    "d_mm": 8.0,
+    "depth_mm": 40.41,
+    "standard": true,
+    "deep": true
+   },
+   {
+    "d_mm": 8.0,
+    "depth_mm": 40.41,
+    "standard": true,
+    "deep": true
+   },
+   {
+    "d_mm": 8.0,
+    "depth_mm": 40.41,
+    "standard": true,
+    "deep": true
+   },
+   {
+    "d_mm": 20.0,
+    "depth_mm": 79.0,
+    "standard": true,
+    "deep": false
+   }
+  ],
+  "nonstandard_holes": 0,
+  "deep_holes": 3,
+  "sharp_internal_corners": 0,
+  "small_internal_radius": 0,
+  "ball_nose_faces": 1,
+  "chamfer_faces": 0,
+  "min_wall_mm": 1.084,
+  "thin_wall": 0,
+  "setups": 2,
+  "setup_dirs": [
+   [
+    0,
+    0,
+    1
+   ],
+   [
+    0,
+    0,
+    -1
+   ]
+  ],
+  "inaccessible_faces": 0
+ },
+ "issues": [
+  {
+   "id": "ball_nose_face",
+   "count": 1,
+   "est_saving_min": 3.0,
+   "text": "Convex 'horizontal' rounded/freeform faces need a ball-nose tool and 3D toolpaths. Replace horizontal convex fillets with 45-degree chamfers."
+  },
+  {
+   "id": "deep_hole",
+   "count": 3,
+   "est_saving_min": 3.0,
+   "text": "Deep holes (depth/diameter > 5.0). Reduce depth if allowed."
+  }
+ ]
+}
