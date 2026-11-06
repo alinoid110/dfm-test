@@ -1,4 +1,4 @@
-# dfm-agent (минимальная версия идеи LLM-Aided DFM)
+# dfm-agent (минимальная версия LLM-Aided DFM)
 
 Структура:
 ```
